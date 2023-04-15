@@ -1,0 +1,9 @@
+# action.yml
+name: 'Swift Test Lambda'
+description: 'Builds and Tests a Swift AWS Lambda.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'check'
+  color: 'orange'
