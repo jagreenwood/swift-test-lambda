@@ -1,4 +1,4 @@
-FROM swift:5.7-amazonlinux2
+FROM swift:5.8-amazonlinux2
 
 COPY test.sh /test.sh
 
