@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Building Lambda"
+swift build --verbose
 echo "Testing Lambda"
-swift test
+swift test --verbose
 echo "Done"
