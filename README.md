@@ -10,8 +10,15 @@ This action has no inputs or outputs.
 
 This action is tagged/versioned with a tag that matches the version of Swift used to build and test the Lambda.
 
-For example the following will build/test with Swift version 5.9:
+| Swift Version | Action Version |
+|---------------|----------------|
+| 5.7           | 1.0, 5.7       |
+| 5.8           | 5.8            |
+| 5.9           | 5.9            |
+| 5.9.2         | 5.9.2          |
+
+For the latest:
 
 ```yaml
-uses: jagreenwood/swift-test-lambda@5.9
+uses: jagreenwood/swift-test-lambda@5.9.2
 ```
